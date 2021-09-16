@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1;
+    background-image: url(https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 40px;
+    text-transform: capitalize;
+    color: #030303;
+}
+
+.container {
+    width: 600px;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+}
+
+.pilihan-komputer {
+    width: 550px;
+    height: 250px;
+    background: rgb(236, 122, 122);
+    position: relative;
+    margin: 15px auto;
+    border-radius: 30px 30px 0 30px;
+    padding-top: 40px;
+}
+
+.pilihan-player {
+    width: 550px;
+    height: 250px;
+    background: rgb(97, 214, 146);
+    position: relative;
+    margin: 5px auto;
+    border-radius: 30px 0 30px 30px;
+}
+
+.info {
+    width: 150px;
+    height: 65px;
+    background: #fff;
+    border: 5px solid blueviolet;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    margin-top: 30px;
+    margin-left: 75px;
+    z-index: 1;
+    border-radius: 20px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #030303;
+}
+
+ul {
+    list-style: none;
+    padding-top: 60px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+
+.gajah, .semut, .orang {
+    position: relative;
+    transition: all .3 ease-out ;
+    cursor: pointer;
+}
+
+.gajah:hover, .semut:hover, .orang:hover {
+    transform: scale(1.1);
+}
