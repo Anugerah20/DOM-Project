@@ -88,7 +88,7 @@ img {
 
 .gajah, .semut, .orang {
     position: relative;
-    transition: all .3 ease-out ;
+    transition: all .3 ease-in ;
     cursor: pointer;
 }
 
