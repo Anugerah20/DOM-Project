@@ -1,5 +1,5 @@
 // Selamat Datang
-alert('Selamat Datang, Untuk Game Ini Belum Responsive Di Mobile');
+alert('Selamat Datang, Untuk Game Ini Belum Responsive Di Perangkat Mobile');
 
 // Pilihan Komputer
 function LihatPilihanKomputer () {
