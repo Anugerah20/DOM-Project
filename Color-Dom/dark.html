@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- style css -->
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: rgb(128, 124, 124);
+            background: #fff;
+        }
+        .center {
+            font-size: 2em;
+            text-align: center;
+            word-wrap: 2px;
+        }
+
+        .mode {
+            display: inline-block;
+            max-width: 800px;
+            margin-left: 50%;
+            overflow: hidden;
+        }
+
+        button {
+           display: flex;
+           text-align: center;
+           margin-top: 30px;
+           border: 0;
+           padding: 10px 20px;
+           background: #ddd;
+           cursor: pointer;
+           font-weight: 400;
+        }
+
+        /* .dark-mode {
+            background: #000;
+            color: #fff;
+            transition: all .3 ease-out;
+        } */
+
+        .hitam {background: #000;}
+
+        .white {background: #fff;}
+
+        .kotak {
+            width: 25px;
+            height: 25px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .input {
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .merah{ background: red;}
+        .hijau{background: green;}
+        .biru{background: blue;}
+
+    </style>
+</head>
+<body>
+    <h1 class="center">Membuat Dark Mode Di Website</h1>
+    <div class="mode">
+        <div>
+            <button type="button"id="DarkMode">Light / Night</button>
+            <!-- Light Mode -->
+        </div>
+    </div>
+
+    <!-- Buat slide warna -->
+    <div class="kotak merah"></div>
+    <div class="input">
+        <input type="range" name="sMerah" min="0" max="255">
+    </div>
+
+    <!-- Buat slide warna hijau -->
+    <div class="kotak hijau"></div>
+    <div class="input">
+        <input type="range" name="sHijau" min="0" max="255">
+    </div>
+    
+   <!-- Buat slide warna biru -->
+   <div class="kotak biru"></div>
+    <div class="input">
+        <input type="range" name="sBiru" min="0" max="255">
+    </div>
+
+
+    <script src="dark.js"></script>
+</body>
+</html>
