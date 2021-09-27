@@ -1,19 +1,3 @@
-/* Mengatur Dark Mode - Cara pertama menggunakan *
-//onclick="darkmode()"
-// function darkMode() {
-//     let model = document.body;
-//     model.classList.toggle('dark-mode');
-// }
-
-
-/*Mengatur Dark Mode - Cara kedua*/
-//const DarkMode = document.getElementById('DarkMode');
-//DarkMode.onclick = function() {
-    // document.body.style.backgroundColor = '#000';
-    // document.body.setAttribute('class', 'hitam');
-    // document.body.classList.toggle('hitam');
-// }
-
 const DarkMode = document.getElementById('DarkMode');
 function darkMode() {
     document.body.classList.toggle('hitam');
