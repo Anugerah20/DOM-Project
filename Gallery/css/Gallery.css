@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #bdbcbc;
+    text-align: center;
+}
+
+.container {
+    width: 610px;
+    border: 5px solid #fff;
+    margin: 20px auto;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+.thub {
+    width: 200px;
+    float: left;
+    border: 3px solid #fff;
+    opacity: 1;
+}
+
+.thub:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all .3s;
+}
+
+/* Animation */
+@keyframes fadein {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0;
+    animation: fadein 0.4s forwards;
+}
+
+.active {
+    opacity: 0.5;
+}
