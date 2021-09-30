@@ -12,9 +12,6 @@ contain.addEventListener('click',function(e) {
 
         // Klik gambar dan hilangkan opacity
         thumbs.forEach(function(thub) {
-            // if(thumb.classList.contains('active')) {
-            //     thumb.classList.remove('active');
-            // }
             thub.className = 'thub';
         });
 
