@@ -1,14 +1,3 @@
-// Cara Pertama
-/* const contain = document.querySelector('.container');
-const big = document.querySelector('.big-image');
-
-contain.addEventListener('click',function(e) {
-    if(e.target.className == 'thub') {
-        big.src = e.target.src;
-    }
-}); */
-
-// Cara Kedua 
 const contain = document.querySelector('.container');
 const big = document.querySelector('.big-image');
 const thumbs = document.querySelectorAll('.thub');
