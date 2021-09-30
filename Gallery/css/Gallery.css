@@ -40,7 +40,7 @@ body {
 
 .fade {
     opacity: 0;
-    animation: fadein 0.4s forwards;
+    animation: fadein .4s forwards;
 }
 
 .active {
