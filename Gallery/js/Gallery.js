@@ -1,3 +1,14 @@
+// Cara Pertama
+/* const contain = document.querySelector('.container');
+const big = document.querySelector('.big-image');
+
+contain.addEventListener('click',function(e) {
+    if(e.target.className == 'thub') {
+        big.src = e.target.src;
+    }
+}); */
+
+// Cara Kedua 
 const contain = document.querySelector('.container');
 const big = document.querySelector('.big-image');
 const thumbs = document.querySelectorAll('.thub');
@@ -12,6 +23,9 @@ contain.addEventListener('click',function(e) {
 
         // Klik gambar dan hilangkan opacity
         thumbs.forEach(function(thub) {
+            // if(thumb.classList.contains('active')) {
+            //     thumb.classList.remove('active');
+            // }
             thub.className = 'thub';
         });
 
